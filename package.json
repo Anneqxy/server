@@ -4,12 +4,12 @@
   "description": "",
   "main": "index.js",
   "engines": {
-    "node": "20.11.1",
-    "npm": "10.2.4"
-  }, // to tell heroku which version used 
+    "node": "16.x",
+    "npm": "8.x"
+  }, 
+  // to tell heroku which version used 
   "scripts": {
-    "start": "node index.js"
-    // to tell heroku how to start the server
+    "start": "node index.js" // to tell heroku how to start the server
   },
   "author": "",
   "license": "ISC",
