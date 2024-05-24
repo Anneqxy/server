@@ -6,10 +6,9 @@
   "engines": {
     "node": "16.x",
     "npm": "8.x"
-  }, 
-  // to tell heroku which version used 
+  },
   "scripts": {
-    "start": "node index.js" // to tell heroku how to start the server
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC",
@@ -17,3 +16,4 @@
     "express": "^4.19.2"
   }
 }
+
