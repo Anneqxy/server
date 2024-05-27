@@ -3,8 +3,10 @@ const mongoose = require('mongoose');
 const cookieSession = require('cookie-session');
 const passport = require('passport');
 const keys = require('./config/keys.js');
+console.log('Keys:', keys); 
 require('./models/User');
 require('./services/passport');
+const keyName = process.env.KEY_NAME;
 
 
 mongoose.connect(keys.mongoURI);
