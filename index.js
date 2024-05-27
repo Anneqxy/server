@@ -6,9 +6,6 @@ const keys = require('./config/keys');
 require('./models/User');
 require('./services/passport');
 
-const keys = {
-   keyName: process.env.KEY_NAME
- };
 
 mongoose.connect(keys.mongoURI);
 
