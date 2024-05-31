@@ -10,7 +10,7 @@
   "scripts": {
     "start": "node index.js",
     "server": "nodemon index.js",
-    "client": "npm run start -- prefix client",
+    "client": "npm run start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "author": "",
@@ -24,6 +24,7 @@
     "mongoose": "^8.4.0",
     "nodemon": "^3.1.0",
     "passport": "^0.5.3",
-    "passport-google-oauth20": "^2.0.0"
+    "passport-google-oauth20": "^2.0.0",
+    "redux-thunk": "^3.1.0"
   }
 }
