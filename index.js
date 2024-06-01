@@ -1,3 +1,5 @@
+require('https').globalAgent.options.rejectUnauthorized = false;
+
 const express = require('express'); // import liabrary
 const mongoose = require('mongoose');
 const cookieSession = require('cookie-session');
@@ -6,6 +8,7 @@ const keys = require('./config/keys.js');
 require('./models/User');
 require('./services/passport');
 const keyName = process.env.KEY_NAME;
+
 
 
 // mongoose.connect(keys.mongoURI);
